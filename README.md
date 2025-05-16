@@ -19,20 +19,19 @@ Obtaining Images
 * Run `python3 src/utils/scraper.py` in terminal to download the most recent standard waterfalls from SatNOGS. Use `-h` for further instructions.
 
 Making Predictions
-* Run this program with python version 3.13.3 or under. PyTorch (torch) is not compatible with any later versions yet.
+* Run this program with a python version compatible with PyTorch (torch), preferably 3.10.13.
 * Run `python3 src/predict.py <IMG_PATH>` in terminal to predict an image of known path. 
 * Run `python3 src/predict.py -o <OBSERVATION_ID>` in terminal to predict an image that can be downloaded from SatNOGS. Use `-h` for further instructions.
 * Run `python3 src/predict_many.py` in terminal to generate and log predictions for all images in `images` into a `prediction_log.json` file. Use `-i` to change image directory. Use `-l` to change log file directory. Use `-h` for further instructions.
 
 ## Dependencies
 
-* **torch:** Core PyTorch library.
-* **torchvision:** Image datasets and transforms.
-* **pillow (PIL):** Image manipulation.
-* **requests:** HTTP requests (for scraping).
-* **termcolor:** Colored terminal output.
+* **torch** - Core PyTorch library.
+* **torchvision** - Image datasets and transforms.
+* **pillow (PIL)** - Image manipulation.
+* **requests** - HTTP requests (for scraping).
+* **termcolor** - Colored terminal output.
 
 ## Contributors
 
 This project was created by Tata Li and mentored by Mitch McLean. The first version began in February, 2025 as an independent research project with Hawai'i's Aspiring Aerospace Engineers Academy. 
-
