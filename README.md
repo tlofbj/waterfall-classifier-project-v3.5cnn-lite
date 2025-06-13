@@ -8,7 +8,7 @@ A report of this project maybe found in this repository. Email Tata Li at tlofbj
 
 ## Versions
 
-* **3.5 (CNN) Lite** - Able to classify single or a directory of images from either an image file path or a valid observation ID. Includes only the predicting module with a simpler and more versatile user interface. Uses model `model_2025-05-08T17-34-36.pth` from v3.0 for making predictions. Final edit: May 15, 2025.
+* **3.5 (CNN) Lite** - Able to classify single or a directory of images from either an image file path or a valid observation ID. Includes only the predicting module with a simpler and more versatile user interface. Uses model `model_2025-05-08T17-34-36.pth` from v3.0 for making predictions. Final edit: June 12, 2025.
 * **3.5 (CNN)** - Able to classify waterfalls. Includes three separate modules for training, evaluating, and predicting. In progress...
 * **3.0 (CNN)** - Able to classify waterfalls of any satellite with significantly greater accuracy. Includes a more comprehensive logger. Training sample: 1650, accuracy 95.52%. Final edit: Apr 23, 2025.
 * **2.0 (SVM)** - Able to classify waterfalls of any satellite. Includes logging and a API-based SATNOGS waterfall scraper. Training sample: 605 images, accuracy 69.5%. Final edit: Apr 10, 2025.
