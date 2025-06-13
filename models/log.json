@@ -1,0 +1,29 @@
+[
+    {
+        "model_name": "model_2025-04-23T09-13-14",
+        "timestamp": "2025-04-23T09-13-14",
+        "sample_size": 1650,
+        "sequential": "Sequential(\n  (0): Conv2d(1, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))\n  (1): ReLU()\n  (2): MaxPool2d(kernel_size=4, stride=4, padding=0, dilation=1, ceil_mode=False)\n  (3): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))\n  (4): ReLU()\n  (5): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)\n  (6): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))\n  (7): ReLU()\n  (8): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)\n  (9): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))\n  (10): ReLU()\n  (11): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)\n  (12): Flatten(start_dim=1, end_dim=-1)\n  (13): Linear(in_features=4096, out_features=256, bias=True)\n  (14): ReLU()\n  (15): Dropout(p=0.5, inplace=False)\n  (16): Linear(in_features=256, out_features=1, bias=True)\n  (17): Sigmoid()\n)",
+        "hyperparameters": {
+            "learning_rate": 0.0015,
+            "batch_size": 32,
+            "num_epochs": 40
+        },
+        "training_time": 2461.3423800468445,
+        "training_losses": "[0.6012, 0.5176, 0.372, 0.4007, 0.331, 0.3163, 0.2396, 0.2185, 0.2054, 0.198, 0.176, 0.1745, 0.1919, 0.1849, 0.165, 0.1547, 0.1564, 0.144, 0.1568, 0.1516, 0.1343, 0.1376, 0.145, 0.1484, 0.1283, 0.1237, 0.1124, 0.108, 0.1177, 0.1125, 0.1136, 0.1151, 0.1108, 0.1164, 0.1145, 0.1127, 0.1066, 0.1072, 0.1009, 0.1]",
+        "accuracy": 95.5223880597015,
+        "num_misclassified": 15,
+        "misclassified_samples": [
+            "data/test/signal/waterfall_11430774_2025-04-17T20-14-04.png",
+            "data/test/signal/waterfall_11429530_2025-04-17T15-09-28.png",
+            "data/test/signal/waterfall_11387792_2025-04-11T03-40-53.png",
+            "data/test/signal/waterfall_11415208_2025-04-17T06-30-19.png",
+            "data/test/signal/waterfall_11447164_2025-04-21T20-25-38.png",
+            "data/test/signal/waterfall_11357156_2025-04-05T14-40-46.png",
+            "data/test/signal/waterfall_11425064_2025-04-17T22-05-13.png",
+            "data/test/signal/waterfall_11420192_2025-04-17T20-50-55.png",
+            "data/test/no_signal/waterfall_11426671_2025-04-17T08-33-28.png",
+            "data/test/no_signal/waterfall_11382933_2025-04-10T06-13-38.png"
+        ]
+    }
+]
